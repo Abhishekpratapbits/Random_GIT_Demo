@@ -3,3 +3,6 @@ do
 echo $i
 ssh $i "uptime"
 done
+
+
+##Adding comments
