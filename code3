@@ -1,0 +1,4 @@
+#/user/bin/bash
+
+i=$1
+print {"Welcome to the server $i"}
