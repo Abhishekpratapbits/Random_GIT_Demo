@@ -1,0 +1,5 @@
+for i in `cat abc`
+do
+echo $i
+ssh $i "uptime"
+done
