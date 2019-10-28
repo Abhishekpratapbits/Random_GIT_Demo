@@ -1,1 +1,5 @@
 
+for i in `cat`
+do
+ssh $i "sar -u 3 4; freem -m"
+done
